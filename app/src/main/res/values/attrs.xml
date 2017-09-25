@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RingView">
+        <attr name="innerRadius" format="dimension|reference" /> <!-- 内环半径 -->
+        <attr name="ringWidth" format="dimension|reference" /> <!-- 圆环宽度 -->
+        <attr name="backgroundColor" format="color|reference" /> <!-- 圆环背景色 -->
+        <attr name="strokeColor" format="color|reference" /> <!-- 圆环颜色 -->
+        <attr name="startAngle" format="integer|reference" /> <!-- 开始角度,默认为270 -->
+    </declare-styleable>
+</resources>
